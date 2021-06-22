@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+
+            <!-- Icon -->
+            <div class="fadeIn first" style = "font-size: 15px; margin-top: 30px;">
+                <!-- <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" /> -->
+                <h3>CADASTRO DE CLIENTES</h3>
+            </div>
+
+            <!-- Login Form -->
+            <form action="http://localhost:3000/clientes" method="POST" target="_blank">
+                <input type="text" id="nome" class="fadeIn second" name="nome" placeholder="nome"> 
+                <input type="text" id="cpf" class="fadeIn third" name="cpf" placeholder="cpf">
+                <input type="submit" class="fadeIn fourth" value="submit">
+            </form>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="#">Esqueceu a senha?</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
